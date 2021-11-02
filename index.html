@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Speed</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-white">
+    <header class="bg-secondary">
+        <h2 class="text-center text-light fs-1 p-4">Word Beater.| <span class="text-light">ENG-CJ</span></h2>
+       
+    </header>
+    <div class="container text-center">
+        <div class="row ">
+        <div class="col-md-6 mx-auto">
+             <p class="lead ">
+            Type The Word With In <span class="text-primary" id="seconds">5</span>
+                Seconds
+            </p>
+            <h4 class="display-1" id="currentWord">😊</h4>
+            <input type="text" id="wordInput" class="form-control form-control-lg font-weight-700" placeholder="Start Typing....">
+<!--            message error-->
+            <h4 class="mt-2" id="message"></h4>
+            <div class="row mt-5">
+            <div class="col-md-6">
+                <h2 >Time Left: <span id="time">0</span> </h2>
+            </div>
+                
+<!--            scores-->
+            <div class="col-md-6">
+                <h2 >Score: <span id="score">0</span> </h2>
+            </div>
+        </div>
+        <div class="row mt-4">
+            
+            <div class="col-md-12">
+            <div class="intruct bg-secondary p-4 mb-4">
+                <h3 class="text-center">AQRI HALKAN</h3>
+                <p>Waa Game Word Typing ah Kaas Oo Aad Qoraysid Xarafka Kasoo Muuqda Input-ka Korkiisa Waxaana Haysataa 5second Oo Kaliya 1 Markaad Soo Gashid Game-ka Ku Dhufo Calamadda (Start) Kadib Wuu Kuu Billabanaya Haddii Uu Game over Kuso Qoro Haku dhufan Markale Start Kaliya Xarafka Ku Qor Kadib Auto Wuu Billaanayaa </p>
+                <button class="start p-1 bg-primary text-light btn-lg w-50" style="border-radius: 40px">Start</button>
+                
+            </div>    
+        </div>
+        </div>
+        </div>
+    
+        
+    </div>
+    </div>
+    
+    <!-- ^ Scripts ↴ -->
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
